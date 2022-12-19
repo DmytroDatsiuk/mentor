@@ -56,8 +56,6 @@ function onCellClick(evt) {
     evt.target.textContent = player;
 
     if (result) {
-        console.log(wins.findIndex(arr => arr.result));
-
         chempion(player);
         return;
     }
@@ -70,8 +68,6 @@ function isWinner(arr) {
     });
 }
 
-// function idx(array) {
-// }
 
 function chempion(player) {
     setTimeout(() => {

@@ -67,14 +67,14 @@
 }
 
 .container {
-    display: flex;
-    margin: 100px 225.5px 50px 225.5px;
-    border: 1px solid black;
+    display: block;
 }
 .content {
-    width: 156px;
-    /* border: 0px solid black; */
-    margin: 0 auto;
+    width: 150px;
+    outline: 1px solid black;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .item {
     width: 50px;
